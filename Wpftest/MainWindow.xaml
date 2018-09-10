@@ -21,7 +21,7 @@
         </Grid.RowDefinitions>
         <Button x:Name="button" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="82,55,0,0"
                 Grid.Row="1" VerticalAlignment="Top" Width="75" MouseDown="button_MouseDown1"/>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="100" Margin="57,33,0,0" VerticalAlignment="Top" Width="289" Grid.ColumnSpan="2">
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="139" Margin="57,33,0,0" VerticalAlignment="Top" Width="292" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="title" Width="200" DisplayMemberBinding="{Binding PostsTitle}"  ></GridViewColumn>
